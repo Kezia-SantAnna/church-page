@@ -29,6 +29,10 @@ header {
   margin: 24px;
 }*/
 
+.hero-logo > img {
+  max-width: 100%;
+}
+
 .title {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -118,8 +122,12 @@ header {
   margin-block: 32px;
 }
 
-.img-inst {
+.img-insta {
   border-radius: 10%;
+}
+
+.img-insta > img {
+  max-width: 100%;
 }
 
 .box-img {
@@ -171,4 +179,63 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 16px;
   letter-spacing: 4px;
+}
+
+@media (max-width: 768px) {
+  .header-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-box {
+    order: 2;
+  }
+
+  .hero-logo {
+   max-width: 70%;
+    order: 1;
+  }
+
+  .box-insta {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box-tex {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .box-proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+  }
+
+  .title {
+    font-size: 12vw;
+  }
+
+  .title2 {
+    font-size: 8vw;
+  }
+
+  .center {
+    font-size: 6vw;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding: 10px 30px;
+    font-size: 4vw;
+  }
+
+  .p {
+    font-size: 4vw;
+    letter-spacing: 1px;
+  }
 }
