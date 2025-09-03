@@ -1,7 +1,18 @@
+import { useState } from "react";
+import Modal from "./Modal";
 import "./App.css";
 
-
 function App() {
+  const [openModal, setOpenModal] = useState(false);
+
+  const handleOpenModal = () => {
+    setOpenModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
+  };
+
   return (
     <>
       <header>Igreja Batista de Marco II</header>
@@ -11,13 +22,15 @@ function App() {
             Sempre <br />
             Conectada
           </h1>
-          <input
-            id="btn01"
-            name="button-name"
-            className="button"
-            type="button"
-            value="Saiba Mais"
-          />
+          <div>
+            <button className="button" onClick={handleOpenModal}>
+              Horários
+            </button>
+            <Modal
+              isOpen={openModal}
+              onClose={handleCloseModal}
+            />
+          </div>
         </div>
         <figure className="hero-logo">
           <img src="src/assets/logo-marcoII.png" alt="logo marco2" />
@@ -66,7 +79,7 @@ function App() {
           />
           <img
             className="img"
-            src= "src/assets/estudo-casais.png"
+            src="src/assets/estudo-casais.png"
             alt="logo casais"
             height="150px"
             width="150px"
