@@ -33,7 +33,7 @@ function App() {
           </div>
         </div>
         <figure className="hero-logo">
-          <img src="src/assets/logo-marcoII.png" alt="logo marco2" />
+          <img src="../public/assets/logo-marcoII.png" alt="logo marco2" />
         </figure>
       </section>
       <article className="center">
@@ -65,49 +65,49 @@ function App() {
           </p>
         </article>
         <figure className="img-insta">
-          <img src="src/assets/instacode.png" alt="QR CODE" />
+          <img src="../public/assets/instacode.png" alt="QR CODE" />
         </figure>
       </section>
       <nav className="box-proj">
         <div className="box-img">
           <img
             className="img"
-            src="src/assets/entre-maes.png"
+            src="../public/assets/entre-maes.png"
             alt="logo entre maes"
             height="150px"
             width="150px"
           />
           <img
             className="img"
-            src="src/assets/estudo-casais.png"
+            src="../public/assets/estudo-casais.png"
             alt="logo casais"
             height="150px"
             width="150px"
           />
           <img
             className="img"
-            src="src/assets/kravmaga.png"
+            src="../public/assets/kravmaga.png"
             alt="logo KRAVMAGA"
             height="150px"
             width="150px"
           />
           <img
             className="img"
-            src="src/assets/homens.png"
+            src="../public/assets/homens.png"
             alt="logo homens"
             height="150px"
             width="150px"
           />
           <img
             className="img"
-            src="src/assets/mulheres.jpg"
+            src="../public/assets/mulheres.jpg"
             alt="logo Mulheres"
             height="150px"
             width="150px"
           />
           <img
             className="img"
-            src="src/assets/Pgm.png"
+            src="../public/assets/Pgm.png"
             alt="logo pgm"
             height="150px"
             width="150px"
@@ -140,7 +140,7 @@ function App() {
             style={{ display: "flex", alignItems: "center", marginBottom: 40 }}
           >
             <img
-              src="src/assets/logo-marcoII.png"
+              src="../public/assets/logo-marcoII.png"
               alt="Logo Igreja Batista de Marco II"
               style={{ height: 60, verticalAlign: "middle", marginRight: 10 }}
             />
@@ -165,7 +165,7 @@ function App() {
             <div style={{ alignItems: "center" }}>
               <figure className="photo-pr">
                 <img
-                  src="src/assets/Pr.jpg"
+                  src="../public/assets/Pr.jpg"
                   alt="foto pastor Paulo"
                   height="400px"
                   width="300px"
