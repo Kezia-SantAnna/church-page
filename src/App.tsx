@@ -52,6 +52,11 @@ function App() {
             Acompanhe tudo o que Deus tem feito em nossa igreja e faça parte
             dessa comunhão! <br />
             💙 Siga nosso Instagram ✨
+            <p>
+              <a href="https://www.instagram.com/ib.marco2" target="_blank">
+                @ib.marco2
+              </a>
+            </p>
           </p>
           <p className="text2">
             Queremos estar perto de você, orando e intercedendo pela sua vida.
@@ -62,7 +67,11 @@ function App() {
           </p>
         </article>
         <figure className="img-insta">
-          <a className="img-insta" href="https://www.instagram.com/ib.marco2" target="_blank">
+          <a
+            href="https://www.instagram.com/ib.marco2"
+            target="_blank"
+            rel="noreferer noopener"
+          >
             <img src="assets/instacode.png" alt="QR CODE" />
           </a>
         </figure>

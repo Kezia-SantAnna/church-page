@@ -123,14 +123,14 @@ header {
 
 .box-insta {
   display: flex;
-  margin-block: 32px;
+  align-items: center;
 }
 
 .img-insta {
   border-radius: 10%;
 }
 
-.img-insta > img {
+.img-insta > a > img {
   max-width: 100%;
 }
 
