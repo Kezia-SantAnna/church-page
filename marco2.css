@@ -127,7 +127,7 @@ header {
 }
 
 .img-insta > img {
-  max-width: 100%;
+max-width: 100%;
 }
 
 .box-img {
@@ -210,7 +210,7 @@ header {
   .box-proj {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     text-align: center;
   }
 

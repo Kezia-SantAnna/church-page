@@ -26,10 +26,7 @@ function App() {
             <button className="button" onClick={handleOpenModal}>
               Horários
             </button>
-            <Modal
-              isOpen={openModal}
-              onClose={handleCloseModal}
-            />
+            <Modal isOpen={openModal} onClose={handleCloseModal} />
           </div>
         </div>
         <figure className="hero-logo">
@@ -65,7 +62,9 @@ function App() {
           </p>
         </article>
         <figure className="img-insta">
-          <img src="assets/instacode.png" alt="QR CODE" />
+          <a className="img-insta" href="https://www.instagram.com/ib.marco2" target="_blank">
+            <img src="assets/instacode.png" alt="QR CODE" />
+          </a>
         </figure>
       </section>
       <nav className="box-proj">
