@@ -1,11 +1,12 @@
 import ProjectCard from "./ProjectCard";
 import ProjectsData from "./ProjectsData";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
-function CarouselProject () {
+function CarouselProject() {
   return (
     <Carousel
+      className="carrossel"
       showThumbs={false}
       showStatus={false}
       infiniteLoop={true}

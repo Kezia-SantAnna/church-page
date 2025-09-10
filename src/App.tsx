@@ -2,8 +2,9 @@ import { useState } from "react";
 import Modal from "./Modal";
 import "./App.css";
 import "./Mobile.css";
-import ProjectCard from "./ProjectCard";
-import ProjectsData from "./ProjectsData";
+// import ProjectCard from "./ProjectCard";
+// import ProjectsData from "./ProjectsData";
+import CarouselProject from "./Carrousel";
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
@@ -16,7 +17,7 @@ function App() {
     setOpenModal(false);
   };
 
-  const data = ProjectsData[0];
+  // const data = ProjectsData[0];
 
   return (
     <>
@@ -82,13 +83,7 @@ function App() {
         </figure>
       </section>
       <nav className="box-proj">
-        <div className="box-modal">
-          <ProjectCard
-            title={data.title}
-            description={data.description}
-            images={data.images}
-          />
-        </div>
+          <CarouselProject />
         <div className="box-img">
           <img
             className="proj-img"
