@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Modal from "./Modal";
 import "./App.css";
+import "./Mobile.css";
+import ProjectCard from "./ProjectCard";
+import ProjectsData from "./ProjectsData";
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
@@ -12,6 +15,8 @@ function App() {
   const handleCloseModal = () => {
     setOpenModal(false);
   };
+
+  const data = ProjectsData[0];
 
   return (
     <>
@@ -77,44 +82,51 @@ function App() {
         </figure>
       </section>
       <nav className="box-proj">
+        <div className="box-modal">
+          <ProjectCard
+            title={data.title}
+            description={data.description}
+            images={data.images}
+          />
+        </div>
         <div className="box-img">
           <img
-            className="img"
+            className="proj-img"
             src="assets/entre-maes.png"
             alt="logo entre maes"
             height="150px"
             width="150px"
           />
           <img
-            className="img"
+            className="proj-img"
             src="assets/estudo-casais.png"
             alt="logo casais"
             height="150px"
             width="150px"
           />
           <img
-            className="img"
+            className="proj-img"
             src="assets/kravmaga.png"
             alt="logo KRAVMAGA"
             height="150px"
             width="150px"
           />
           <img
-            className="img"
+            className="proj-img"
             src="assets/homens.png"
             alt="logo homens"
             height="150px"
             width="150px"
           />
           <img
-            className="img"
+            className="proj-img"
             src="assets/mulheres.jpg"
             alt="logo Mulheres"
             height="150px"
             width="150px"
           />
           <img
-            className="img"
+            className="proj-img"
             src="assets/Pgm.png"
             alt="logo pgm"
             height="150px"
@@ -152,7 +164,7 @@ function App() {
               alt="Logo Igreja Batista de Marco II"
               style={{ height: 60, verticalAlign: "middle", marginRight: 10 }}
             />
-            <span className="p"> Igreja Batista de Marco II</span>
+            <span className="subtitle"> Igreja Batista de Marco II</span>
           </div>
           <div
             style={{
@@ -178,7 +190,7 @@ function App() {
                   height="400px"
                   width="300px"
                 />
-                <p className="p" style={{ textAlign: "center" }}>
+                <p className="subtitle" style={{ textAlign: "center" }}>
                   Pastor Paulo Malhaes
                 </p>
               </figure>
@@ -190,10 +202,10 @@ function App() {
         style={{ backgroundColor: "#0f172a", padding: 8, textAlign: "center" }}
       >
         <div>
-          <p className="p">
+          <p className="subtitle">
             Endereço: Rua Manoel Ribeiro Marinho, 127 / Marco II
           </p>
-          <p className="p">Email: ibatistamarco2@gmail.com</p>
+          <p className="subtitle">Email: ibatistamarco2@gmail.com</p>
         </div>
       </footer>
     </>

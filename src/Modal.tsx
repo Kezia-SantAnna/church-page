@@ -22,7 +22,7 @@ function Modal({ isOpen, onClose }: ModalProps) {
           <h3>Noite</h3>
           <p>18H30 - Culto de Louvor e Adoração</p>
         </div>
-        <button className="button close" onClick={onClose}>
+        <button className="button-close" onClick={onClose}>
           fechar
         </button>
       </div>
