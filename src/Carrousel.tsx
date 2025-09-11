@@ -15,25 +15,25 @@ function CarouselProject({ isOpen, onClose }: CarouselProps) {
 
   return (
     <div className="box-carousel">
-     <button className="on-close" onClick={onClose}>
+      <button className="on-close" onClick={onClose}>
         X
       </button>
-    <Carousel
-      className="my-carousel"
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop={true}
-      emulateTouch={true}
-    >
-      {ProjectsData.map((project) => (
-        <ProjectCard
-          key={project.id}
-          title={project.title}
-          description={project.description}
-          images={project.images}
-        />
-      ))}
-    </Carousel>
+      <Carousel
+        className="my-carousel"
+        showThumbs={false}
+        showStatus={false}
+        infiniteLoop={true}
+        emulateTouch={true}
+      >
+        {ProjectsData.map((project) => (
+          <ProjectCard
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            images={project.images}
+          />
+        ))}
+      </Carousel>
     </div>
   );
 }

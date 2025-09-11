@@ -9,14 +9,14 @@ const ProjectsData = [
     Junte-se a Nós!\n
     Inscrições e Mais Informações:\n
     Kezia - (21) 97958-6237 (Whatsapp)\n`,
-    images: ["assets/entre-maes.png", "assets/estudo-casais.png", "assets/kravmaga.png"],
+    images: ["assets/entre-maes.png", "assets/galeria-fotos/maes.jpg", "assets/galeria-fotos/maess.jpg", "assets/galeria-fotos/mmaes.jpg" ],
   },
 
   {
     id: 2,
     title: "Bem Casados",
     description: `Um tempo precioso e descontraído para casais, com café, boa conversa e aprendizado. Falamos sobre a importância da comunicação, o dia a dia do casal e como manter a chama e a cumplicidade acesas, mesmo com a chegada dos filhos. Venham fortalecer sua aliança e desfrutar de um tempo só para vocês!`,
-    images: [""],
+    images: ["assets/estudo-casais.png","assets/galeria-fotos/caasais.jpg", "assets/galeria-fotos/casais.jpg", "assets/galeria-fotos/casaiss.jpg"],
   },
 
   {
@@ -27,7 +27,7 @@ const ProjectsData = [
     🕗 Que horas? 20h30 \n
     Para mais informações, entre em contato com Sillas Adriano \n
     WhatsApp: (21) 96970-1614.`,
-    images: [""],
+    images: ["assets/kravmaga.png", "assets/galeria-fotos/krav-maga.jpg", "assets/galeria-fotos/kravmaga.jpg", "assets/galeria-fotos/kravmagaa.jpg"],
   },
 
   {
@@ -44,7 +44,7 @@ const ProjectsData = [
     title: "Ministério de Mulheres",
     description: `A Bíblia está repleta de histórias de mulheres comuns que foram usadas por Deus de maneira extraordinária. Mulheres de fé, coragem, resiliência e propósito, cujas jornadas continuam a nos ensinar e inspirar.\n
   O Ministério de Mulheres é o nosso espaço sagrado para redescobrir essas histórias. Em um ambiente de amizade, acolhimento e com o aroma de um bom café, nos reunimos para estudar juntas a vida de mulheres como Débora, Ana, a mulher samaritana e tantas outras, aplicando suas vitórias e lições aos nossos próprios desafios.`,
-    images: [""],
+    images: ["../public/assets/mulheres.jpg","../public/assets/galeria-fotos/mulheres.jpg", "../public/assets/galeria-fotos/mulheress.jpg", "../public/assets/galeria-fotos/mulherr.jpg"],
   },
 
   {
@@ -73,7 +73,7 @@ Encontre um PGM perto de você! Fale com Pastor Paulo Malhaes em (21) 99404-8967
   Horários:\n
   Domingo, 9h30 (manhã)\n
   Domingo, 18h30 (noite)`,
-    images: [""],
+    images: ["../public/assets/kids (1).png", "../public/assets/galeria-fotos/kidss.jpg", "../public/assets/galeria-fotos/kids.jpg"],
   },
 ];
 

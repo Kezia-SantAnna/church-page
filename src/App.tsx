@@ -135,6 +135,13 @@ function App() {
             height="150px"
             width="150px"
           />
+          <img
+            className="proj-img"
+            src="../public/assets/kids.png"
+            alt="logo kids"
+            height="150px"
+            width="150px"
+          />
         </div>
         <div className="box-tex">
           <h2 className="title2">Projetos</h2>
