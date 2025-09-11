@@ -3,10 +3,23 @@ import ProjectsData from "./ProjectsData";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-function CarouselProject() {
+interface CarouselProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+function CarouselProject({ isOpen, onClose }: CarouselProps) {
+  if (!isOpen) {
+    return null;
+  }
+
   return (
+    <div className="box-carousel">
+     <button className="on-close" onClick={onClose}>
+        X
+      </button>
     <Carousel
-      className="carrossel"
+      className="my-carousel"
       showThumbs={false}
       showStatus={false}
       infiniteLoop={true}
@@ -21,6 +34,7 @@ function CarouselProject() {
         />
       ))}
     </Carousel>
+    </div>
   );
 }
 

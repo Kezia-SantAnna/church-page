@@ -8,6 +8,7 @@ import CarouselProject from "./Carrousel";
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
+  const [openProject, setOpenProject] = useState(false);
 
   const handleOpenModal = () => {
     setOpenModal(true);
@@ -17,6 +18,13 @@ function App() {
     setOpenModal(false);
   };
 
+  const handleOpenProject = () => {
+    setOpenProject(true);
+  };
+
+  const handleCloseProject = () => {
+    setOpenProject(false);
+  };
   // const data = ProjectsData[0];
 
   return (
@@ -83,7 +91,7 @@ function App() {
         </figure>
       </section>
       <nav className="box-proj">
-          <CarouselProject />
+        <CarouselProject isOpen={openProject} onClose={handleCloseProject} />
         <div className="box-img">
           <img
             className="proj-img"
@@ -139,14 +147,9 @@ function App() {
             <br />
             Conheça nossos projetos:
           </p>
-          <input
-            style={{ margin: 24 }}
-            id="btn02"
-            name="button-low"
-            className="button"
-            type="button"
-            value="Saiba Mais"
-          />
+          <button className="button" onClick={handleOpenProject}>
+            Saiba Mais
+          </button>
         </div>
       </nav>
       <div className="final">
