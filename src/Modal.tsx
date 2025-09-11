@@ -11,6 +11,9 @@ function Modal({ isOpen, onClose }: ModalProps) {
   return (
     <section className="box-modal">
       <div className="modal">
+        <button className="button-close" onClick={onClose}>
+          X
+        </button>
         <div>
           <h2>Todos os Domingos</h2>
           <h3>Manhã</h3>
@@ -22,9 +25,6 @@ function Modal({ isOpen, onClose }: ModalProps) {
           <h3>Noite</h3>
           <p>18H30 - Culto de Louvor e Adoração</p>
         </div>
-        <button className="button-close" onClick={onClose}>
-          fechar
-        </button>
       </div>
     </section>
   );
