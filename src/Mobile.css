@@ -13,6 +13,10 @@
     order: 1;
   }
 
+  .box-img {
+    justify-content: space-around;
+  }
+
   .box-insta {
     flex-direction: column;
     align-items: center;
@@ -46,6 +50,10 @@
 }
 
 @media (max-width: 480px) {
+  .text {
+    font-size: 20px;
+  }
+
   .button {
     padding: 10px 30px;
     font-size: 4vw;
@@ -54,5 +62,13 @@
   .subtitle {
     font-size: 4vw;
     letter-spacing: 1px;
+  }
+
+  .container-project {
+    display: grid;
+  }
+
+  .button {
+    font-size: 24px;
   }
 }
