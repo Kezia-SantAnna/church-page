@@ -67,13 +67,17 @@ function App() {
           💙 Siga nosso Instagram ✨
         </p>
         <div className="container-img-insta">
-          <figure className="img-insta">
+          <figure className="insta-img">
             <a
               href="https://www.instagram.com/ib.marco2"
               target="_blank"
               rel="noreferer noopener"
             >
-              <img src="assets/instacode.png" alt="QR CODE" />
+              <img
+                style={{ width: "100%" }}
+                src="assets/instacode.png"
+                alt="QR CODE"
+              />
             </a>
           </figure>
           <p>
@@ -123,7 +127,7 @@ function App() {
             <img className="proj-img" src="assets/Pgm.png" alt="logo pgm" />
             <img
               className="proj-img"
-              src="../public/assets/kids.png"
+              src="assets/kids.png"
               alt="logo kids"
             />
           </div>
