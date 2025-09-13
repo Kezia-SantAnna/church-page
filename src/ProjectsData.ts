@@ -44,7 +44,7 @@ const ProjectsData = [
     title: "Ministério de Mulheres",
     description: `A Bíblia está repleta de histórias de mulheres comuns que foram usadas por Deus de maneira extraordinária. Mulheres de fé, coragem, resiliência e propósito, cujas jornadas continuam a nos ensinar e inspirar.\n
   O Ministério de Mulheres é o nosso espaço sagrado para redescobrir essas histórias. Em um ambiente de amizade, acolhimento e com o aroma de um bom café, nos reunimos para estudar juntas a vida de mulheres como Débora, Ana, a mulher samaritana e tantas outras, aplicando suas vitórias e lições aos nossos próprios desafios.`,
-    images: ["../public/assets/mulheres.jpg","../public/assets/galeria-fotos/mulheres.jpg", "../public/assets/galeria-fotos/mulheress.jpg", "../public/assets/galeria-fotos/mulherr.jpg"],
+    images: ["assets/mulheres.jpg","assets/galeria-fotos/mulheres.jpg", "assets/galeria-fotos/mulheress.jpg", "assets/galeria-fotos/mulherr.jpg"],
   },
 
   {
@@ -73,7 +73,7 @@ Encontre um PGM perto de você! Fale com Pastor Paulo Malhaes em (21) 99404-8967
   Horários:\n
   Domingo, 9h30 (manhã)\n
   Domingo, 18h30 (noite)`,
-    images: ["../public/assets/kids (1).png", "../public/assets/galeria-fotos/kidss.jpg", "../public/assets/galeria-fotos/kids.jpg"],
+    images: ["assets/kids.png", "assets/galeria-fotos/kidss.jpg", "assets/galeria-fotos/kids.jpg"],
   },
 ];
 
